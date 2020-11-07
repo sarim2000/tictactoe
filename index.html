@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Tic-Tac-Toe</h1>
+    </div>
+    <div id="playercontainer" class="container">
+        <form>
+            <label for="playerOne">Player One(X): </label>
+            <input type="text" id="playerOne" name="playerOne">
+            <label for="playerTwo">Player Two(O): </label>
+            <input type="text" id="playerTwo" name="playerTwo">
+        </form>
+        <button id="startButton" class="button">Start</button>
+        
+    </div>
+    <div id = "namecontainer" class="container">
+        <p id="playerOnename"></p>
+        <p id="playerTwoname"></p>
+        <p id="whoseturn"></p>
+    </div>
+    <div id="main-container">
+        <div class="grid" id = "boxes">
+            <div class="boardsquare"></div>
+            <div class="boardsquare"></div>
+            <div class="boardsquare"></div>
+            <div class="boardsquare"></div>
+            <div class="boardsquare"></div>
+            <div class="boardsquare"></div>
+            <div class="boardsquare"></div>
+            <div class="boardsquare"></div>
+            <div class="boardsquare"></div> 
+        </div>
+    </div>
+    <div class="last">
+        <button id = "restartButton" class="button">Restart</button>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
